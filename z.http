@@ -1,1 +1,8 @@
-http://localhost:3000/api/diaries
+http://localhost:3000/api/diaries/10
+
+
+###
+POST http://localhost:3000/api/diaries/ HTTP/1.1
+
+content-type: application/json
+{ "date":"1/2/34","weather":"sunny","visibility":"great","comment":"here is a comment about the flight"}
